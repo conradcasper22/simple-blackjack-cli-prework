@@ -59,7 +59,7 @@ def runner
   hit?(first_round)
   until first_round > 21 
   first_round += hit?(first_round)
-  hit?(first_round)
+  # hit?(first_round)
   display_card_total(first_round)
   end
   end_game(first_round)
